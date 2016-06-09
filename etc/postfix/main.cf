@@ -21,6 +21,7 @@ milter_protocol = 2
 # smtpd_milters = unix:opendkim/opendkim.sock,unix:opendmarc/opendmarc.sock
 smtpd_milters = unix:opendmarc/opendmarc.sock
 # submission_milters = unix:opendkim/opendkim.sock
+submission_milters =
 non_smtpd_milters = $submission_milters
 
 smtpd_helo_required = yes
