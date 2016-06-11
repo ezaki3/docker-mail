@@ -58,7 +58,7 @@ submission_client_restrictions =
 
 submission_sender_restrictions =
   permit_mynetworks,
-  reject_sender_login_mismatch,
+  # reject_sender_login_mismatch,
   permit
 
 submission_recipient_restrictions =
