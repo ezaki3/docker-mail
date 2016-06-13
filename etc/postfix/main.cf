@@ -1,6 +1,6 @@
-smtpd_tls_cert_file = /private/ssl/cert.pem
-smtpd_tls_key_file = /private/ssl/key.pem
-smtpd_tls_CAfile = /private/ssl/ca.pem
+smtpd_tls_cert_file = /private/ssl/server.crt
+smtpd_tls_key_file = /private/ssl/server.key
+# smtpd_tls_CAfile = /private/ssl/ca.pem
 smtpd_tls_auth_only = yes
 
 local_recipient_maps =
